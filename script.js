@@ -7,7 +7,7 @@ let tipEl = document.getElementById("tip-el")
 
 
 function tenPercent() {
-  let result =  (totalBill.valueAsNumber * .1).tofixed(2)
+  let result =  (totalBill.valueAsNumber * .1).toFixed(2)
   tipEl.textContent = "Tip Amount:  $" + result
 }
 
