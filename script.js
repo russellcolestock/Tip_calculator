@@ -12,7 +12,7 @@ function tenPercent() {
 }
 
 function fifteenPercent() {
-  let result =  totalBill.valueAsNumber * .15
+  let result =  (totalBill.valueAsNumber * .15).toFixed(2)
   tipEl.textContent = "Tip Amount:  $" + result
 }
 
